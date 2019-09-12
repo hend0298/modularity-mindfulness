@@ -8,11 +8,14 @@ footer {
 }
 
 a {
-  color: #8bc9d9;
+  color: #005e76;
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-color: #8bc9d9;
 }
 
 a:hover {
-  color: #005e76;
+  color: #0084a6;
 }
 
 .btn-ghost {
