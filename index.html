@@ -4,53 +4,69 @@
   <meta charset="utf-8">
   <title>Rock Gardens</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/modules.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>枯山水</h1>
-    <h2>Rock Gardens</h2>
-    <nav>
-      <ul>
-        <li><a href="#">Viewing</a></li>
-        <li><a href="#">Gravel</a></li>
-        <li><a href="#">Symbolism</a></li>
-      </ul>
-    </nav>
-    <img src="images/banner.svg" alt="banner">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner" tabindex="0">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1 l-1-2">
+        <h1 class="push-0 gutter">枯山水</h1>
+        <h2 class="push-0 gutter micro">Rock Gardens</h2>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2">
+        <nav role="navigation" id="nav" tabindex="0">
+          <ul class="list-group-inline island push-0">
+            <li class="inline island-1-2"><a href="#">Viewing</a></li>
+            <li class="inline island-1-2"><a href="#">Gravel</a></li>
+            <li class="inline island-1-2"><a href="#">Symbolism</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <img src="images/banner.svg" alt="banner" class="img-flex push">
   </header>
-  <main>
-    <h2>自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
-    <p>Imitate the intimate essence of nature & discover the true meaning of life.</p>
-    <ul>
-      <li>
-        <img src="images/viewing.svg" alt="viewing">
-        <strong>閲覧</strong>
-        <strong>Viewing</strong>
-        <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the <em>hojo</em></p>
-        <a href="#">Learn more about Viewing</a>
-      </li>
-      <li>
-        <img src="images/gravel.svg" alt="gravel">
-        <strong>砂利</strong>
-        <strong>Gravel</strong>
-        <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
-        <a href="#">Learn more about Gravel</a>
-      </li>
-      <li>
-        <img src="images/symbolism.svg" alt="symbolism">
-        <strong>象徴主義</strong>
-        <strong>Symbolism</strong>
-        <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
-        <a href="#">Learn more about Symbolism</a>
-      </li>
-    </ul>
+  <main role="main" id="main" tabindex="0">
+    <section>
+      <h2>自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
+      <p>Imitate the intimate essence of nature & discover the true meaning of life.</p>
+      <ul class="list-group-inline island">
+        <li>
+          <img src="images/viewing.svg" alt="viewing" class="img-flex push">
+          <strong>閲覧</strong>
+          <strong>Viewing</strong>
+          <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the <i lang="ja">hojo</i></p>
+          <a href="#" class="btn btn-ghost push">Learn more about Viewing</a>
+        </li>
+        <li>
+          <img src="images/gravel.svg" alt="gravel" class="img-flex push">
+          <div>
+            <strong>砂利</strong>
+          </div>
+          <strong>Gravel</strong>
+          <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; <i lang="ja">Shirakawa</i>, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
+          <a href="#" class="btn btn-ghost push">Learn more about Gravel</a>
+        </li>
+        <li>
+          <img src="images/symbolism.svg" alt="symbolism" class="img-flex push">
+          <div>
+            <strong>象徴主義</strong>
+          </div>
+          <strong>Symbolism</strong>
+          <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly <i lang="ja">Horai</i> or they can be boats or a living creature, usually a turtle, or a carp</p>
+          <a href="#" class="btn btn-ghost push">Learn more about Symbolism</a>
+        </li>
+      </ul>
+    </section>
   </main>
-  <footer>
+  <footer role="contentinfo" tabindex="0">
     <p>© 794 Heian Period</p>
   </footer>
 </body>

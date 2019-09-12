@@ -1,3 +1,21 @@
 html {
   font-family: "Noto Sans Japanese", sans-serif;
+  color: #000;
+}
+
+footer {
+  color: gray;
+}
+
+.btn {
+  border-color: #8bc9d9;
+  color: #0084a6;
+}
+
+a:hover {
+  background-color: #0084a6;
+}
+
+header {
+  text-align: center;
 }
