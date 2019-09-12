@@ -7,15 +7,24 @@ footer {
   color: gray;
 }
 
-.btn {
+.btn-ghost {
   border-color: #8bc9d9;
   color: #0084a6;
 }
 
-a:hover {
-  background-color: #0084a6;
+.btn:hover {
+  border-color: #0084a6;
+  background-color:#8bc9d9;
+  color: #0084a6;
 }
 
 header {
   text-align: center;
+}
+
+.border {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #e2e2e2;
 }
