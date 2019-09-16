@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #000;
 }
 
@@ -37,7 +37,7 @@ header {
   text-align: center;
 }
 
-.border {
+.border, footer{
   border-top-style: solid;
   border-bottom-style: solid;
   border-width: thin;
