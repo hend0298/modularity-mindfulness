@@ -24,8 +24,8 @@ a:hover {
 
 .btn-ghost {
   border-color: #8bc9d9;
+  border-width: thin;
   color: #005e76;
-  padding: .5em;
 }
 
 .btn:hover {
@@ -46,5 +46,13 @@ header {
 }
 
 @media only screen and (min-width: 60em) {
+
+  nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
 
 }
