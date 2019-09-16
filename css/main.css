@@ -1,6 +1,10 @@
 html {
-  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: #000;
+}
+
+.japanese {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 footer {
